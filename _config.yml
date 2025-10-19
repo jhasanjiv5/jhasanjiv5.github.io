@@ -1,3 +1,6 @@
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+title: Sanjiv S. Jha
+description: Applied AI Researcher | Computer Vision | Explainable AI
+avatar: "https://media.licdn.com/dms/image/v2/D4E03AQHefngqgtDnpw/profile-displayphoto-scale_400_400/B4EZnONrQ1KcAg-/0/1760101316222?e=1762387200&v=beta&t=GvLsOcyg3Ku0CVPZIaLVG17fLmrm3zlfcWAsyDXzBXU"
