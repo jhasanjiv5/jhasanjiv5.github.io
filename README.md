@@ -1,7 +1,4 @@
 
-
-### Applied AI Researcher | Bridging AI research and practical innovation through explainable, human-centered systems.
-
 📍 Zurich, Switzerland  
 📧 [snjivza@gmail.com](mailto:snjivza@gmail.com)  
 📞 +41 78 822 6834  
