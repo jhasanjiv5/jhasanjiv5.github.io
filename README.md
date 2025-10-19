@@ -1,6 +1,6 @@
-# Sanjiv S. Jha
 
-**Applied AI Researcher | Computer Vision | Explainable AI | Human-Centered Systems**
+
+### Applied AI Researcher | > **“Bridging AI research and practical innovation through explainable, human-centered systems.”**
 
 📍 Zurich, Switzerland  
 📧 [snjivza@gmail.com](mailto:snjivza@gmail.com)  
@@ -103,5 +103,3 @@ Passionate about building explainable AI solutions that enhance user experience 
 Painting 🎨 | Reading 📚 | Event Coordination 🎤 | Traveling 🌍
 
 ---
-
-> **“Bridging AI research and practical innovation through explainable, human-centered systems.”**
