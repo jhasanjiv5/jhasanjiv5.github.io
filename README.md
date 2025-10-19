@@ -8,7 +8,6 @@
       <p>
         📍 <strong>Zurich, Switzerland</strong><br>
         📧 <a href="mailto:snjivza@gmail.com">snjivza@gmail.com</a><br>
-        📞 +41 78 822 6834
       </p>
       <p>
         🔗 
