@@ -1,10 +1,10 @@
 
-<table>
+<table style="border: none; border-collapse: collapse;">
   <tr>
-    <td width="180" valign="top" align="center">
+    <td style="border: none; padding-right: 20px; vertical-align: top;" width="160">
       <img src="{{ site.avatar }}" alt="{{ site.title }}" width="150" style="border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
     </td>
-    <td valign="top">
+    <td style="border: none; vertical-align: top;">
       <p>
         📍 <strong>Zurich, Switzerland</strong><br>
         📧 <a href="mailto:snjivza@gmail.com">snjivza@gmail.com</a><br>
