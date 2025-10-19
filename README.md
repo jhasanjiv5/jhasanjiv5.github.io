@@ -1,8 +1,24 @@
 
-📍 Zurich, Switzerland  
-📧 [snjivza@gmail.com](mailto:snjivza@gmail.com)  
-📞 +41 78 822 6834  
-🔗 [Google Scholar](https://scholar.google.com/citations?user=tHPrrWoAAAAJ&hl=en&oi=sra) | [GitHub](https://github.com/jhasanjiv5) | [LinkedIn](https://www.linkedin.com/in/snjivza/)
+<table>
+  <tr>
+    <td width="180" valign="top" align="center">
+      <img src="{{ site.avatar }}" alt="{{ site.title }}" width="150" style="border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+    </td>
+    <td valign="top">
+      <p>
+        📍 <strong>Zurich, Switzerland</strong><br>
+        📧 <a href="mailto:snjivza@gmail.com">snjivza@gmail.com</a><br>
+        📞 +41 78 822 6834
+      </p>
+      <p>
+        🔗 
+        <a href="https://scholar.google.com/citations?user=tHPrrWoAAAAJ&hl=en&oi=sra">Google Scholar</a> · 
+        <a href="https://github.com/jhasanjiv5">GitHub</a> · 
+        <a href="https://www.linkedin.com/in/snjivza/">LinkedIn</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
