@@ -1,34 +1,71 @@
-/* Custom Header for GitHub Theme */
-header {
-  background: linear-gradient(90deg, lavender 0%, #EAE5EE 100%) !important;
-  color: #333 !important;
+/* ===== Custom Lavender Header for GitHub Pages Slate Theme ===== */
+
+/* Header background */
+#header_wrap {
+  background-color: #EAE5EE !important;  /* solid lavender */
   border-bottom: 2px solid #d8bfd8;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  padding: 25px 0;
+  color: #333 !important;
 }
 
-/* Adjust the title & link color */
-header h1, header h2, header a {
+/* Layout for image + text side-by-side */
+#header_wrap .inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap; /* responsive for smaller screens */
+}
+
+/* Profile image styling */
+#header_wrap img.profile-pic {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Title, subtitle, and link text */
+#header_wrap h1,
+#header_wrap h2,
+#header_wrap a {
   color: #3c3c3c !important;
   text-shadow: none !important;
 }
 
-/* Optional: change site background slightly */
+/* Subtitle styling */
+#header_wrap h2 {
+  font-size: 1.1em;
+  margin-top: 4px;
+  color: #4b4b4b;
+}
+
+/* Paragraph text inside header */
+#header_wrap p {
+  color: #555;
+  margin-top: 6px;
+  line-height: 1.4em;
+}
+
+/* Link hover color (slightly deeper lavender tone) */
+#header_wrap a:hover {
+  color: #5a4fa3 !important;
+}
+
+/* Optional: soft page background for balance */
 body {
   background-color: #fafaff;
 }
 
-/* Center the header content a bit */
-header .inner {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-/* Profile image styling */
-header img.profile-pic {
-  border-radius: 50%;
-  border: 3px solid white;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  width: 90px;
-  height: 90px;
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #header_wrap .inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  #header_wrap img.profile-pic {
+    margin-bottom: 10px;
+  }
 }
