@@ -1,5 +1,5 @@
 /* ===== Custom Lavender Header for GitHub Pages Slate Theme ===== */
-
+@import "{{ site.theme }}";
 /* Header background */
 #header_wrap {
   background-color: #EAE5EE !important;  /* solid lavender */
