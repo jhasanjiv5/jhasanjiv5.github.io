@@ -1,8 +1,3 @@
----
-layout: default
-title: Sanjiv S. Jha - Applied AI & IoT System Designer
-description: PhD in Computer Science | AI Research & Development
----
 
 # Sanjiv S. Jha
 
