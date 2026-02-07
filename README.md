@@ -1,120 +1,152 @@
-<table style="border: none; border-collapse: collapse;">
-  <tr>
-    <td style="border: none; padding-right: 20px; vertical-align: top;" width="160">
-      <img src="{{ site.avatar }}" alt="{{ site.title }}" width="150" style="border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
-    </td>
-    <td style="border: none; vertical-align: top;">
-      <p>
-        📍 <strong>Zurich, Switzerland</strong><br>
-        📧 <a href="mailto:snjivza@gmail.com">snjivza@gmail.com</a><br>
-      </p>
-      <p>
-        🔗 
-        <a href="https://scholar.google.com/citations?user=tHPrrWoAAAAJ&hl=en&oi=sra">Google Scholar</a> · 
-        <a href="https://github.com/jhasanjiv5">GitHub</a> · 
-        <a href="https://www.linkedin.com/in/snjivza/">LinkedIn</a>
-      </p>
-    </td>
-  </tr>
-</table>
+---
+layout: default
+title: Sanjiv S. Jha - Applied AI & IoT System Designer
+description: PhD in Computer Science | AI Research & Development
+---
+
+# Sanjiv S. Jha
+
+**Applied AI & IoT System Designer**
+
+Leveraging technical expertise with analytical and interpersonal strengths to deliver business value and elevate user experience.
 
 ---
 
-## 👨‍🔬 Professional Summary
+## Contact Information
 
-Applied AI researcher with expertise in **computer vision**, **ubiquitous computing**, and **human-centered system design**.
-Focused on developing **context-aware**, **transparent**, and **scalable AI systems** that bridge academic research and real-world applications.
-Passionate about building explainable AI solutions that enhance user experience and deliver measurable business value.
-
----
-
-## 🧠 Technical Skills
-
-| Category                       | Skills                                                                |
-| ------------------------------ | --------------------------------------------------------------------- |
-| **Languages**            | Python, JavaScript, C#                                                |
-| **Databases**            | SQL, MongoDB                                                          |
-| **Frameworks/Libraries** | PyTorch, OpenCV, Scikit-learn, LangGraph                              |
-| **Cloud & Deployment**   | Git, Docker, GCP, Vertex AI                                           |
-| **CMS Tools**            | Magento, WordPress                                                    |
-| **Domains**              | Computer Vision, IoT, Explainable AI, Generative AI, Machine Learning |
+- **Phone:** +41 78 822 6834
+- **Email:** [snjivza@gmail.com](mailto:snjivza@gmail.com)
+- **Location:** Zurich, Switzerland
+- **Google Scholar:** [Profile](https://scholar.google.com)
+- **GitHub:** [Profile](https://github.com)
+- **LinkedIn:** [Profile](https://linkedin.com)
 
 ---
 
-## 💼 Professional Experience
+## Professional Summary
 
-### **University of St. Gallen** — *Research & Teaching Assistant*
-
-📅 **Sep 2019 – May 2025** | St. Gallen, Switzerland
-
-- Conducted research on **multimodal AI systems** and **explainable decision-making**.
-- Developed scene understanding and reasoning systems using **Python**, **OpenCV**, **PyTorch**, and **LLMs**.
-- Co-authored multiple peer-reviewed publications and supervised student theses.
-
-### **Equidato Technologies** — *Software Developer*
-
-📅 **Apr 2018 – Mar 2019** | Baden, Switzerland
-
-- Developed Node.js and C# modules for **blockchain-based systems** with offline transaction signing.
-
-### **Accenture** — *SAP UI5 Developer (Intern)*
-
-📅 **Aug 2016 – Sep 2016** | Zurich, Switzerland
-
-- Built SAP Fiori applications integrated with SAP ECC to manage customer data efficiently.
-
-### **Aptech Computer Education** — *Software Trainer*
-
-📅 **Jul 2014 – Aug 2015** | Mumbai, India
-
-- Mentored students in programming (C#, Python, C++, HTML) and guided them through certification programs.
-
-### **HelloWelt Technologies** — *Co-Founder & Technical Lead*
-
-📅 **Jan 2013 – Aug 2015** | Mumbai, India
-
-- Co-founded a **3D printing marketplace**; led full-stack development, product planning, and growth strategy.
+Applied AI & IoT System Designer with 6+ years of experience translating complex research into scalable, real-world frameworks. Expert in designing end-to-end IoT pipelines that transform raw sensor data into actionable insights, bridging the gap between Edge AI research and measurable business outcomes. Proven ability to deploy robust full-stack solutions using Python, C#, and GCP. PhD in AI and Ubiquitous Computing with a focus on creating transparent, privacy-preserving intelligent systems.
 
 ---
 
-## 🎓 Education
+## Core Competencies
 
-- **Ph.D. in Computer Science** — *University of St. Gallen* (2020 – 2025)
-- **Master of Computer Science** — *University of Zurich* (2015 – 2018)
-- **Bachelor of Computer Engineering** — *University of Mumbai* (2007 – 2012)
-
----
-
-## 🏅 Certifications & Roles
-
-- Committee Member, IEEE ICTAI 2025
-- Committee Member, Mensch und Computer 2024
-- Committee Member, IoT Conference 2021
-- SAP Fiori Design & Implementation (OpenSAP, 2016)
-- C#.NET Framework Developer (2012)
+- **AI Research:** Conducted six years of applied AI research, resulting in six peer-reviewed publications
+- **Machine Learning:** Expertise in regression, classification, clustering, feature engineering, deep learning, and computer vision (CNNs, object detection, scene understanding)
+- **Generative AI:** Experience with LLMs, RAG, and fine-tuning techniques
+- **Data Engineering:** ETL pipelines, model deployment, Docker, GCP
+- **Full-Stack Development:** Designed and maintained APIs and backend services using JavaScript and C#
+- **Leadership:** Strong analytical reasoning, collaborative teamwork, mentorship, and problem-solving skills
 
 ---
 
-## 📚 Selected Publications
+## Technical Skills
 
-- **The Spectrum of Proactive Functioning in Digital Companions** (2024)[DOI: 10.1145/3701571.3701606](https://doi.org/10.1145/3701571.3701606)
-- **Temporal Scene Understanding using Contextually Unique Identification** (2024)[DOI: 10.1109/ICTAI62512.2024.00145](https://doi.org/10.1109/ICTAI62512.2024.00145)
-- **Actionable Contextual Explanations for Cyber-Physical Systems** (2023)[DOI: 10.1109/TrustCom60117.2023.00255](https://doi.org/10.1109/TrustCom60117.2023.00255)
-- **The Design Space of Automatic Object Identification Systems** (2025, Under Review)
-  [TechRxiv Preprint](https://doi.org/10.36227/techrxiv.173834011.17918732/v1)
-
----
-
-## 🌍 Languages
-
-- English — C2
-- German — B2
-- Hindi — Native
+| Category | Technologies |
+|----------|-------------|
+| **Programming Languages** | C, C++, Python, JavaScript, C# |
+| **Databases** | SQL, MongoDB |
+| **Frameworks & Libraries** | PyTorch, OpenCV, Scikit-learn, LangGraph |
+| **Cloud & Deployment** | Git, Docker, GCP, Vertex AI |
+| **CMS Tools** | WordPress, Magento |
+| **Domains** | Computer Vision, IoT, Explainable AI, Generative AI, Machine Learning |
 
 ---
 
-## 🎨 Personal Interests
+## Education
 
-Painting 🎨 | Reading 📚 | Event Coordination 🎤 | Traveling 🌍
+### Ph.D. in Computer Science
+**University of St.Gallen** | St. Gallen, Switzerland  
+*February 2020 - September 2025*
+
+### Master of Computer Science
+**University of Zurich** | Zurich, Switzerland  
+*September 2015 - April 2018*
+
+### Bachelor of Computer Engineering
+**University of Mumbai** | Mumbai, India  
+*July 2007 - June 2012*
 
 ---
+
+## Work Experience
+
+### Research and Teaching Assistant â€” Applied AI & Ubiquitous Computing
+**University of St.Gallen** | St. Gallen, Switzerland  
+*September 2019 â€“ May 2025*
+
+Researched and implemented AI methods and systems to advance AI research:
+
+#### (2024) Proactive Multimodal Question Answering System
+- Delivered an AI system integrating video, audio, human activity, and sensor data
+- Achieved 12% more accurate zero-shot QA using LLMs compared to recent benchmarks
+- Implemented model-context protocol for enhanced efficiency and privacy-preserving assistance
+- **Tools:** Python, fine-tuned LLM, RAG, prompt engineering techniques
+
+#### (2023) Scene Understanding System
+- Led development of proactive system for tracking contextual relationships and object characteristics over time
+- **Tools:** Python, OpenCV, Scene Graph algorithms
+
+#### (2022) Actionable Explanation System
+- Developed counterfactual explanation framework using environmental sensors and semantic technologies
+- Improved system transparency through XAI methods
+- **Tools:** Python, SPARQL, GraphDB, machine learning, XAI methods
+
+### Software Developer
+**Equidato Technologies** | Baden, Switzerland  
+*April 2018 â€“ March 2019*
+
+- Developed blockchain transaction modules and APIs using NodeJS and C#
+- Significantly reduced integration efforts for enterprise clients in their local apps and websites
+
+### SAP UI5 Developer
+**Accenture** | Zurich, Switzerland  
+*August 2016 â€“ September 2016*
+
+- Developed customer registration application using SAP Fiori UI5 frontend
+- Connected to SAP ECC for reading and writing customer data
+
+### Software Trainer
+**Aptech Computer Education** | Mumbai, India  
+*July 2014 â€“ August 2015*
+
+- Taught and mentored students in software and web application development
+- Covered project-based courses in C#, Python, C++, HTML, and mobile app development
+- Developed course content and conducted hands-on sessions
+
+### Co-Founder and Technical Lead
+**HelloWelt Technologies** | Mumbai, India  
+*January 2013 â€“ August 2015*
+
+- Developed and managed full-stack architecture of 3D printing marketplace
+- Used WordPress, JavaScript, PHP, and MySQL
+- Contributed to market research and growth initiatives
+
+---
+
+## Certifications and Achievements
+
+- Committee member of the 37th IEEE International Conference on Tools with Artificial Intelligence, 2025
+- Committee member of Mensch und Computer Conference, 2024
+- Committee member of the 11th International Conference on the Internet of Things (IoT), 2021
+- C#.NET Application Framework developer certification, 2012
+- Published 7 peer-reviewed papers in Ubiquitous and IoT systems with applied AI/ML
+- Mentored and supervised 10+ students in AI/ML system development
+
+---
+
+## Languages
+
+- **English:** Professional
+- **German:** Intermediate
+- **Hindi:** Native
+
+---
+
+## Interests
+
+Painting, Reading, Event Coordination, and Traveling
+
+---
+
+*Last updated: February 2026*
