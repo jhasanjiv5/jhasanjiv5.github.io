@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sanjiv S. Jha · AI Research Engineer</title>
+<meta name="description" content="Sanjiv S. Jha: AI research engineer and freelance AI consultant. PhD in AI and Ubiquitous Computing (University of St.Gallen).">
+<meta property="og:title" content="Sanjiv S. Jha · AI Research Engineer">
+<meta property="og:description" content="I turn AI research into working systems. Explainable, privacy-aware assistants that understand the places and people around them.">
+<meta property="og:image" content="https://jhasanjiv5.github.io/assets/image/sanjiv_jha_CV_pic.png">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/image/sanjiv_jha_CV_pic.png">
+<style>
+/* Design tokens: same Apple greys, blue and system accents as the GitHub profile README (build.py) */
+:root {
+  --page: #f5f5f7; --card: #ffffff; --border: #e5e5ea; --text: #1d1d1f; --muted: #6e6e73;
+  --chip: #f5f5f7; --accent: #0071e3; --green: #248a3d; --dot: #34c759;
+  --red: #d70015; --orange: #c93400; --purple: #8944ab;
+  --shadow: 0 4px 18px rgba(0,0,0,.08);
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page: #000000; --card: #1c1c1e; --border: #38383a; --text: #f5f5f7; --muted: #a1a1a6;
+    --chip: #2c2c2e; --accent: #2997ff; --green: #30d158; --dot: #30d158;
+    --red: #ff6961; --orange: #ff9f0a; --purple: #bf5af2;
+    --shadow: 0 4px 18px rgba(0,0,0,.55);
+  }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--page); color: var(--text); font: 16px/1.5 var(--font); -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; display: block; }
+
+/* top bar */
+.nav { position: sticky; top: 0; z-index: 10; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+  background: color-mix(in srgb, var(--page) 72%, transparent); border-bottom: 1px solid var(--border); }
+.nav .in { max-width: 1040px; margin: 0 auto; padding: 0 16px; height: 48px; display: flex; align-items: center; gap: 22px; }
+.nav b { font-weight: 600; margin-right: auto; white-space: nowrap; }
+.nav a { color: var(--text); font-size: 13px; opacity: .8; }
+.nav a:hover { opacity: 1; text-decoration: none; }
+.nav .links { display: contents; }
+@media (max-width: 720px) { .nav .links { display: none; } }
+
+main { max-width: 1040px; margin: 0 auto; padding: 24px 16px 64px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; }
+.cols > * { min-width: 0; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 22px; box-shadow: var(--shadow); padding: 28px 32px; }
+@media (max-width: 600px) { .card { padding: 22px 18px; border-radius: 18px; } }
+h2 { font-size: 24px; letter-spacing: -.4px; margin: 0 0 18px; }
+h3 { font-size: 17px; margin: 0; }
+.muted { color: var(--muted); }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .6px; text-transform: uppercase; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0; list-style: none; }
+.chips li { background: var(--chip); border-radius: 999px; padding: 4px 13px; font-size: 13px; font-weight: 500; }
+
+/* header (LinkedIn-like arrangement) */
+.hero { padding: 0; overflow: hidden; }
+.cover { height: 132px; position: relative; background:
+  radial-gradient(60% 120% at 15% 0%, rgba(0,113,227,.28), transparent 60%),
+  radial-gradient(50% 120% at 70% 10%, rgba(175,82,222,.22), transparent 60%),
+  radial-gradient(40% 120% at 95% 0%, rgba(255,159,10,.22), transparent 60%), var(--chip); }
+.cover::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 5px;
+  background: linear-gradient(90deg, #0071e3, #af52de 30%, #ff375f 60%, #ff9f0a); }
+.hero .body { padding: 0 32px 28px; }
+.avatar { position: relative; width: 152px; height: 152px; border-radius: 50%; margin-top: -84px; border: 5px solid var(--card); background: var(--card); box-shadow: var(--shadow); }
+.hero h1 { font-size: 34px; letter-spacing: -.8px; margin: 14px 0 2px; line-height: 1.15; }
+.headline { font-size: 18px; margin: 0 0 6px; }
+.meta { font-size: 14px; color: var(--muted); margin: 0 0 14px; }
+.open { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; color: var(--green); margin-bottom: 18px; }
+.open::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); box-shadow: 0 0 0 4px color-mix(in srgb, var(--dot) 25%, transparent); }
+.buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 18px; border-radius: 999px; font-size: 14px; font-weight: 500;
+  border: 1px solid var(--accent); color: var(--accent); }
+.btn.primary { background: var(--accent); color: #fff; }
+.btn:hover { text-decoration: none; filter: brightness(1.08); }
+@media (max-width: 600px) { .hero .body { padding: 0 18px 22px; } .avatar { width: 120px; height: 120px; margin-top: -66px; } .hero h1 { font-size: 28px; } }
+
+/* stats */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--border); margin-top: 24px; padding-top: 20px; }
+.stats div { text-align: center; padding: 0 8px; }
+.stats div + div { border-left: 1px solid var(--border); }
+.stats b { display: block; font-size: 30px; letter-spacing: -.8px; line-height: 1.2; }
+.stats span { font-size: 13px; color: var(--muted); }
+@media (max-width: 600px) { .stats { grid-template-columns: repeat(2, 1fr); row-gap: 16px; } .stats div:nth-child(3) { border-left: 0; } }
+
+.statement { font-size: 22px; font-weight: 600; letter-spacing: -.4px; margin: 0 0 6px; }
+.about p { margin: 0 0 12px; }
+.about ul { margin: 6px 0 0; padding-left: 20px; }
+.about li { margin-bottom: 6px; }
+
+/* featured projects */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
+.proj { display: flex; flex-direction: column; gap: 8px; border: 1px solid var(--border); border-radius: 18px; padding: 20px; color: var(--text); transition: transform .2s, box-shadow .2s; }
+.proj:hover { text-decoration: none; transform: translateY(-2px); box-shadow: var(--shadow); }
+.proj p { margin: 0; color: var(--muted); font-size: 14.5px; flex: 1; }
+.proj .more { color: var(--accent); font-size: 14px; font-weight: 500; }
+.proj .chips li { font-size: 12px; padding: 3px 11px; }
+
+/* timeline lists */
+.tl { list-style: none; margin: 0; padding: 0; }
+.tl > li { display: grid; grid-template-columns: 48px 1fr; gap: 16px; padding: 16px 0; border-top: 1px solid var(--border); }
+.tl > li:first-child { border-top: 0; padding-top: 0; }
+.logo { width: 48px; height: 48px; border-radius: 12px; display: grid; place-items: center; font-weight: 700; font-size: 15px; color: #fff; }
+.tl .when { font-size: 13.5px; color: var(--muted); margin: 2px 0 6px; }
+.tl p, .tl ul { margin: 6px 0 0; font-size: 15px; }
+.tl ul { padding-left: 18px; }
+.sub { margin-top: 12px; padding-left: 14px; border-left: 2px solid var(--border); }
+.sub h4 { margin: 12px 0 2px; font-size: 15px; }
+.sub h4 span { color: var(--accent); font-weight: 700; margin-right: 6px; }
+.sub p { margin: 0; color: var(--muted); font-size: 14.5px; }
+
+.road { overflow-x: auto; margin: 0 -8px; }
+.road img { min-width: 720px; width: 100%; height: auto; }
+.swipe { display: none; text-align: center; font-size: 12px; color: var(--muted); margin: 6px 0 0; }
+@media (max-width: 760px) { .swipe { display: block; } }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 760px) { .cols { grid-template-columns: 1fr; } }
+.skills { display: grid; grid-template-columns: 130px 1fr; gap: 14px 18px; align-items: start; }
+.skills .eyebrow { color: var(--muted); padding-top: 5px; }
+@media (max-width: 600px) { .skills { grid-template-columns: 1fr; gap: 6px; } .skills .chips { margin-bottom: 10px; } }
+.plain { margin: 0; padding-left: 18px; }
+.plain li { margin-bottom: 8px; }
+footer { text-align: center; font-size: 13px; color: var(--muted); padding: 8px 16px 40px; }
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="in">
+  <b>Sanjiv S. Jha</b>
+  <span class="links">
+    <a href="#about">About</a><a href="#featured">Featured</a><a href="#experience">Experience</a>
+    <a href="#research">Research</a><a href="#skills">Skills</a>
+  </span>
+  <a class="btn primary" style="padding:4px 14px;font-size:13px;opacity:1" href="mailto:snjivza@gmail.com">Contact</a>
+</div></nav>
+
+<main>
+
+<!-- Header: photo, name, headline, links (a website has no GitHub sidebar, so these belong here) -->
+<section class="card hero">
+  <div class="cover"></div>
+  <div class="body">
+    <img class="avatar" src="assets/image/sanjiv_jha_CV_pic.png" alt="Portrait of Sanjiv S. Jha" width="152" height="152">
+    <h1>Sanjiv S. Jha</h1>
+    <p class="headline">AI research engineer · PhD in AI &amp; Ubiquitous Computing, University of St.Gallen</p>
+    <p class="meta">Generative, explainable &amp; privacy-aware AI · Freelance AI consultant · Konstanz, Germany</p>
+    <div class="open">Open to AI engineering roles · authorised to work in Germany (Opportunity Card)</div>
+    <div class="buttons">
+      <a class="btn primary" href="mailto:snjivza@gmail.com">Email</a>
+      <a class="btn" href="https://www.linkedin.com/in/snjivza/">LinkedIn</a>
+      <a class="btn" href="https://scholar.google.com/citations?user=tHPrrWoAAAAJ">Google Scholar</a>
+      <a class="btn" href="https://github.com/jhasanjiv5">GitHub</a>
+    </div>
+    <div class="stats">
+      <div><b>7</b><span>peer-reviewed papers</span></div>
+      <div><b>6+ yrs</b><span>AI research &amp; engineering</span></div>
+      <div><b>29</b><span>apps built in 30 days</span></div>
+      <div><b>10+</b><span>students mentored</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="card about" id="about">
+  <h2>About</h2>
+  <p class="statement">I turn AI research into working systems.</p>
+  <p class="muted">AI research engineer with 6+ years across applied AI research, software engineering and freelance technology consulting. I translate business and client needs into scalable AI solutions, work with technical and non-technical stakeholders alike, and deliver end-to-end systems from prototype to production.</p>
+  <ul class="chips" style="margin:14px 0 20px"><li>Generative AI</li><li>Explainable AI</li><li>Privacy-aware AI</li><li>Multimodal AI</li></ul>
+  <ul>
+    <li><b>Business &amp; requirements analysis.</b> Turning client and business needs into AI and multimodal-data use cases and solution designs, with cross-functional stakeholders.</li>
+    <li><b>AI &amp; machine learning.</b> LLMs, RAG, tool calling, prompt engineering and LangChain; computer vision; explainable AI; PyTorch and scikit-learn.</li>
+    <li><b>Software &amp; cloud delivery.</b> Python, FastAPI, TypeScript, Docker, Google Cloud, Microsoft Azure and Vertex AI, from prototype to production-ready.</li>
+    <li><b>Trustworthy by design.</b> Local-first and on-device models, guardrails such as <a href="https://github.com/jhasanjiv5/30_day_30_ideas/tree/main/kavach">Kavach</a>, and explanations users can act on.</li>
+    <li><b>Communication &amp; collaboration.</b> Client-facing delivery, 10+ students and junior colleagues mentored, complex AI explained to diverse audiences.</li>
+  </ul>
+</section>
+
+<section class="card" id="featured">
+  <h2>Featured</h2>
+  <div class="grid">
+    <a class="proj" href="https://github.com/jhasanjiv5/30_day_30_ideas">
+      <span class="eyebrow" style="color:var(--purple)">Build challenge</span><h3>30 Ideas · 30 Days</h3>
+      <p>One AI app a day for a month: 29 working prototypes, each with a write-up.</p>
+      <ul class="chips"><li>Swift</li><li>TypeScript</li><li>Go</li><li>Python</li></ul><span class="more">View on GitHub ›</span></a>
+    <a class="proj" href="https://github.com/jhasanjiv5/30_day_30_ideas/tree/main/kavach">
+      <span class="eyebrow" style="color:var(--red)">Security</span><h3>Kavach</h3>
+      <p>Local security guard for AI coding agents: blocks leaked secrets and prompt injection.</p>
+      <ul class="chips"><li>Go</li><li>Local LLM</li><li>Agent hooks</li></ul><span class="more">Learn more ›</span></a>
+    <a class="proj" href="https://github.com/jhasanjiv5/30_day_30_ideas/tree/main/drishya">
+      <span class="eyebrow" style="color:var(--orange)">Research tools</span><h3>Drishya</h3>
+      <p>Turns research papers into narrated, cited video podcasts with grounded Q&amp;A.</p>
+      <ul class="chips"><li>FastAPI</li><li>React</li><li>Manim</li><li>RAG</li></ul><span class="more">Learn more ›</span></a>
+    <a class="proj" href="https://github.com/jhasanjiv5/30_day_30_ideas/tree/main/Saathi">
+      <span class="eyebrow" style="color:var(--green)">On-device AI</span><h3>Saathi</h3>
+      <p>An audio companion that narrates where you walk, without ever storing your location.</p>
+      <ul class="chips"><li>Swift 6</li><li>On-device LLM</li><li>HealthKit</li></ul><span class="more">Learn more ›</span></a>
+    <a class="proj" href="https://github.com/jhasanjiv5/30_day_30_ideas/tree/main/prod-preview">
+      <span class="eyebrow" style="color:var(--accent)">Cloud</span><h3>Prod Preview</h3>
+      <p>Turns cloud proofs-of-concept into a plain-language scorecard for stakeholder sign-off.</p>
+      <ul class="chips"><li>TypeScript</li><li>Docker</li><li>GCP</li></ul><span class="more">Learn more ›</span></a>
+    <a class="proj" href="https://github.com/jhasanjiv5/ComplianceCopilot">
+      <span class="eyebrow" style="color:var(--purple)">Local RAG</span><h3>ComplianceCopilot</h3>
+      <p>Ask questions of compliance PDFs with local models and vector search; nothing leaves the machine.</p>
+      <ul class="chips"><li>FastAPI</li><li>React</li><li>Ollama</li><li>Chroma</li></ul><span class="more">View on GitHub ›</span></a>
+    <a class="proj" href="https://github.com/jhasanjiv5/ContexualExplainerSystem">
+      <span class="eyebrow" style="color:var(--accent)">Research · 2021–22</span><h3>ACES</h3>
+      <p>Actionable, counterfactual explanations for smart environments from sensors and knowledge graphs.</p>
+      <ul class="chips"><li>Python</li><li>SPARQL</li><li>GraphDB</li></ul><span class="more">View on GitHub ›</span></a>
+    <a class="proj" href="https://scholar.google.com/citations?user=tHPrrWoAAAAJ">
+      <span class="eyebrow" style="color:var(--green)">Research · 2023–24</span><h3>Proactive Scene Understanding</h3>
+      <p>A digital companion that combines user profiles with scene relationships to assist before being asked; validated on smart-home automation.</p>
+      <ul class="chips"><li>Python</li><li>OpenCV</li><li>Scene graphs</li><li>Context-aware AI</li></ul><span class="more">Read the paper ›</span></a>
+  </div>
+</section>
+
+<section class="card" id="experience">
+  <h2>Experience</h2>
+  <ol class="tl">
+    <li><div class="logo" style="background:linear-gradient(135deg,#0071e3,#af52de)">AI</div><div>
+      <h3>Freelance AI Engineer &amp; Personal R&amp;D</h3><div class="when">Self-employed · Konstanz, Germany · Oct 2025 – present</div>
+      <ul>
+        <li>Built a local-first data anonymisation system that redacts sensitive data on-device before any cloud use, for GDPR-sensitive client workflows (freelance engagement, Oct 2025 – Jan 2026).</li>
+        <li>Architected a multi-stage on-device/cloud LLM pipeline with strict guardrails and Airflow orchestration; delivered a production-ready web service and UI.</li>
+        <li>Continued the project independently (Feb – May 2026) to explore further tooling beyond the original client scope.</li>
+        <li>Ran the <a href="https://github.com/jhasanjiv5/30_day_30_ideas">30 Ideas · 30 Days</a> challenge: 29 AI prototypes in 30 days.</li>
+        <li>Since September 2026: developing and implementing personas for a digital product-marketing survey.</li>
+      </ul>
+      <ul class="chips" style="margin-top:10px"><li>Python</li><li>FastAPI</li><li>TypeScript</li><li>ChromaDB</li><li>Airflow</li><li>Ollama</li><li>LangChain</li><li>LLM-as-a-Judge</li></ul></div></li>
+    <li><div class="logo" style="background:#00802f">HSG</div><div>
+      <h3>Applied AI Research Assistant</h3>
+      <div class="when">University of St.Gallen · St.Gallen, Switzerland · Sep 2019 – May 2025</div>
+      <p>Researched and implemented AI methods and systems; mentored and supervised 10+ students.</p>
+      <div class="sub">
+        <h4><span>2024–25</span>The design space of automatic object identification systems</h4>
+        <p>A formal model and validated framework for real-time, dynamic selection of discriminative object characteristics, improving multi-agent communication.</p>
+        <h4><span>2024–25</span>Multimodal question answering</h4>
+        <p>Led the architecture of an assistant combining video, voice, human activity and sensor data for scene understanding in smart industrial environments; +12% accuracy over zero-shot LLM baselines.</p>
+        <h4><span>2023–24</span>Proactive scene understanding</h4>
+        <p>A context-aware system using user profiles and scene relationships to assist proactively; a new digital-companion architecture, validated on smart-home automation.</p>
+        <h4><span>2021–22</span>Actionable explanations (ACES)</h4>
+        <p>A counterfactual XAI framework and correlation-based explanation technique from semantic technologies and sensor data, for transparent cyber-physical systems.</p>
+      </div>
+      <ul class="chips" style="margin-top:12px"><li>Python</li><li>SPARQL</li><li>OpenCV</li><li>GraphDB</li><li>PyTorch</li><li>scikit-learn</li><li>Prompt engineering</li></ul></div></li>
+    <li><div class="logo" style="background:#30b0c7">EQ</div><div>
+      <h3>Software Developer</h3><div class="when">Equidato Technologies · Baden, Switzerland · Apr 2018 – Mar 2019</div>
+      <p>Built blockchain transaction modules and REST APIs, enabling seamless client integration and reducing enterprise onboarding effort. JavaScript, C#, Node.js, Node-RED.</p></div></li>
+    <li><div class="logo" style="background:#a100ff">ACN</div><div>
+      <h3>SAP UI5 Application Developer</h3><div class="when">Accenture AG · Zurich, Switzerland · Aug 2016 – Sep 2016</div>
+      <p>Built a customer onboarding app that automates data entry, significantly reducing manual onboarding work at sales fronts. SAP Fiori UI5, ABAP, SAP ECC.</p></div></li>
+    <li><div class="logo" style="background:#ff9f0a">AP</div><div>
+      <h3>Software Trainer</h3><div class="when">Aptech Computer Education · Mumbai, India · Jul 2014 – Aug 2015</div>
+      <p>Taught project-based courses in C#, Python, C++, HTML and mobile development; wrote course content.</p></div></li>
+    <li><div class="logo" style="background:#ff375f">HW</div><div>
+      <h3>Co-founder &amp; Technical Lead</h3><div class="when">HelloWelt Technologies · Mumbai, India · Jan 2013 – Aug 2015</div>
+      <p>Co-founded and built a 3D-printing marketplace where sellers offer custom 3D printers and products; led full-stack development and product strategy. WordPress, JavaScript, MySQL, Magento.</p></div></li>
+  </ol>
+</section>
+
+<section class="card" id="research">
+  <h2>The road so far</h2>
+  <div class="road"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/image/career-map-dark.svg">
+    <img src="assets/image/career-map.svg" alt="Career map: Mumbai 2007–2015 (B.E., HelloWelt, Aptech); flight to Zurich 2015 (M.Sc. UZH, Accenture); by train to Baden 2018 (Equidato), St.Gallen 2019–2025 (research assistant and PhD, HSG) and Konstanz since 2025 (freelance AI engineer)" width="1000" height="660" loading="lazy">
+  </picture></div>
+  <p class="swipe">← Swipe to see the whole map →</p>
+  <p class="muted" style="text-align:center;font-size:14px;margin:10px 0 0">Where each role and degree happened, with the dates of that role, not of the stay.</p>
+</section>
+
+<div class="cols">
+  <section class="card" id="education">
+    <h2>Education</h2>
+    <ol class="tl">
+      <li><div class="logo" style="background:#00802f">HSG</div><div><h3>PhD, Computer Science</h3>
+        <div class="when">University of St.Gallen · Feb 2020 – Sep 2025</div><p class="muted">AI &amp; ubiquitous computing: explainable, privacy-aware and ambient AI.</p></div></li>
+      <li><div class="logo" style="background:#0028a5">UZH</div><div><h3>M.Sc. Computer Science</h3>
+        <div class="when">University of Zurich · Sep 2015 – Apr 2018</div></div></li>
+      <li><div class="logo" style="background:#6e6e73">MU</div><div><h3>B.E. Computer Engineering</h3>
+        <div class="when">University of Mumbai · Jul 2007 – Jun 2012</div></div></li>
+    </ol>
+  </section>
+  <section class="card" id="service">
+    <h2>Service &amp; recognition</h2>
+    <ul class="plain">
+      <li>Programme committee, 37th IEEE ICTAI, 2025</li>
+      <li>Programme committee, Mensch und Computer, 2024</li>
+      <li>Programme committee, 11th International Conference on the Internet of Things, 2021</li>
+      <li>7 peer-reviewed papers on ubiquitous and IoT systems with applied AI/ML (<a href="https://scholar.google.com/citations?user=tHPrrWoAAAAJ">Scholar</a>)</li>
+      <li>C#.NET application framework developer certification, 2012</li>
+    </ul>
+  </section>
+</div>
+
+<section class="card" id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span class="eyebrow">AI / ML</span><ul class="chips"><li>LLMs</li><li>RAG</li><li>Tool calling</li><li>Prompt engineering</li><li>LangChain</li><li>LangGraph</li><li>LLM-as-a-Judge</li><li>PyTorch</li><li>scikit-learn</li><li>OpenCV</li><li>Computer vision</li><li>XAI</li></ul>
+    <span class="eyebrow">Languages</span><ul class="chips"><li>Python</li><li>TypeScript</li><li>JavaScript</li><li>C#</li><li>Swift</li><li>Go</li></ul>
+    <span class="eyebrow">Cloud &amp; delivery</span><ul class="chips"><li>Docker</li><li>Google Cloud</li><li>Vertex AI</li><li>Microsoft Azure</li><li>FastAPI</li><li>Airflow</li><li>Ollama</li><li>Git</li></ul>
+    <span class="eyebrow">Data</span><ul class="chips"><li>SQL</li><li>MongoDB</li><li>ChromaDB</li><li>GraphDB</li><li>SPARQL</li></ul>
+    <span class="eyebrow">Domains</span><ul class="chips"><li>Generative AI</li><li>Explainable AI</li><li>Computer vision</li><li>IoT</li><li>Machine learning</li></ul>
+    <span class="eyebrow">Spoken</span><ul class="chips"><li>English · C2</li><li>German · B2</li><li>Hindi · native</li></ul>
+    <span class="eyebrow">Interests</span><ul class="chips"><li>Painting</li><li>Reading</li><li>Event coordination</li><li>Travelling</li></ul>
+  </div>
+</section>
+
+</main>
+
+<footer>© 2026 Sanjiv S. Jha · <a href="https://github.com/jhasanjiv5">GitHub</a> · <a href="https://www.linkedin.com/in/snjivza/">LinkedIn</a> · <a href="https://scholar.google.com/citations?user=tHPrrWoAAAAJ">Scholar</a></footer>
+<script>
+  // On narrow screens the map scrolls sideways: open it centred on the Switzerland/Germany panel.
+  (function () {
+    var road = document.querySelector(".road");
+    function centre() { if (road.scrollWidth > road.clientWidth) road.scrollLeft = road.scrollWidth * 0.715 - road.clientWidth / 2; }
+    var img = road.querySelector("img");
+    if (img.complete) centre(); else img.addEventListener("load", centre);
+  })();
+</script>
+</body>
+</html>

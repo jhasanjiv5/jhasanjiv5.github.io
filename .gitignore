@@ -1,0 +1,4 @@
+# Private documents: never publish
+*.pdf
+.DS_Store
+__pycache__/
